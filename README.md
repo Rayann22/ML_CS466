@@ -1,1 +1,3 @@
-# Sentence classification 
+# CNN for Sentence classification
+
+ 

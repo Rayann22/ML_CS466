@@ -179,10 +179,10 @@ def main():
     w2v = None
 
     if model_mode in ("static", "non_static"):
-        w2v_path = "./embeddings/GoogleNews-vectors-negative300.bin.gz"
+        w2v_path = "../embeddings/GoogleNews-vectors-negative300.bin.gz"
         w2v = load_pretrained_word2vec(w2v_path)
 
-    data_dir = "./data"
+    data_dir = "../data"
     texts, labels, max_len = load_all_mr(data_dir)
 
     texts = np.array(texts, dtype=object)

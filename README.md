@@ -83,7 +83,7 @@ The model follows Kim’s CNN design:
 
 ---
 
-## 🧪 Training Setup
+## Training Setup
 
 * Optimizer: Adadelta
 * Loss Function: CrossEntropyLoss

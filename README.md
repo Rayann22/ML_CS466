@@ -119,6 +119,12 @@ GoogleNews-vectors-negative300.bin.gz
 From:
 https://code.google.com/archive/p/word2vec/
 
+or
+```bash
+cd embeddings
+wget -P embeddings https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz
+```
+
 ###  Placement
 
 After downloading, place the file in the following directory:

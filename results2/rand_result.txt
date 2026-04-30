@@ -1,0 +1,110 @@
+Using device: cpu
+
+========== Fold 1 / 10 ==========
+    Epoch 1 | loss 1.6158 | acc 0.5000 | precision 0.0000 | recall 0.0000 | f1 0.0000                        
+    Epoch 2 | loss 1.2721 | acc 0.5000 | precision 0.5000 | recall 1.0000 | f1 0.6667                        
+    Epoch 3 | loss 0.8052 | acc 0.8200 | precision 0.9211 | recall 0.7000 | f1 0.7955                             
+    Epoch 4 | loss 0.5950 | acc 0.5100 | precision 1.0000 | recall 0.0200 | f1 0.0392                             
+    Epoch 5 | loss 0.5873 | acc 0.8100 | precision 0.8298 | recall 0.7800 | f1 0.8041                             
+    Epoch 6 | loss 0.6410 | acc 0.6800 | precision 0.6098 | recall 1.0000 | f1 0.7576                             
+Fold 1 best | acc 0.8200 | precision 0.9211 | recall 0.7000 | f1 0.7955
+
+========== Fold 2 / 10 ==========
+    Epoch 1 | loss 1.6884 | acc 0.5000 | precision 0.5000 | recall 1.0000 | f1 0.6667                             
+    Epoch 2 | loss 1.1301 | acc 0.5000 | precision 0.5000 | recall 1.0000 | f1 0.6667                             
+    Epoch 3 | loss 0.7960 | acc 0.6900 | precision 0.6203 | recall 0.9800 | f1 0.7597                             
+    Epoch 4 | loss 0.7097 | acc 0.5100 | precision 1.0000 | recall 0.0200 | f1 0.0392                             
+    Epoch 5 | loss 0.6397 | acc 0.5900 | precision 0.9091 | recall 0.2000 | f1 0.3279                             
+    Epoch 6 | loss 0.4904 | acc 0.6000 | precision 0.9167 | recall 0.2200 | f1 0.3548                             
+Fold 2 best | acc 0.6900 | precision 0.6203 | recall 0.9800 | f1 0.7597
+
+========== Fold 3 / 10 ==========
+    Epoch 1 | loss 1.7597 | acc 0.5000 | precision 0.5000 | recall 1.0000 | f1 0.6667                             
+    Epoch 2 | loss 1.2859 | acc 0.5300 | precision 0.5155 | recall 1.0000 | f1 0.6803                             
+    Epoch 3 | loss 0.7436 | acc 0.5300 | precision 0.5155 | recall 1.0000 | f1 0.6803                             
+    Epoch 4 | loss 0.5571 | acc 0.6300 | precision 1.0000 | recall 0.2600 | f1 0.4127                             
+    Epoch 5 | loss 0.5555 | acc 0.7400 | precision 0.6935 | recall 0.8600 | f1 0.7679                             
+    Epoch 6 | loss 0.4538 | acc 0.5600 | precision 1.0000 | recall 0.1200 | f1 0.2143                             
+Fold 3 best | acc 0.7400 | precision 0.6935 | recall 0.8600 | f1 0.7679
+
+========== Fold 4 / 10 ==========
+    Epoch 1 | loss 1.5975 | acc 0.5000 | precision 0.0000 | recall 0.0000 | f1 0.0000                             
+    Epoch 2 | loss 1.2437 | acc 0.5700 | precision 1.0000 | recall 0.1400 | f1 0.2456                             
+    Epoch 3 | loss 0.6911 | acc 0.5800 | precision 1.0000 | recall 0.1600 | f1 0.2759                             
+    Epoch 4 | loss 0.7608 | acc 0.5100 | precision 0.5051 | recall 1.0000 | f1 0.6711                             
+    Epoch 5 | loss 0.5642 | acc 0.6900 | precision 1.0000 | recall 0.3800 | f1 0.5507                             
+    Epoch 6 | loss 0.2841 | acc 0.6200 | precision 0.5789 | recall 0.8800 | f1 0.6984                             
+Fold 4 best | acc 0.6900 | precision 1.0000 | recall 0.3800 | f1 0.5507
+
+========== Fold 5 / 10 ==========
+    Epoch 1 | loss 1.5472 | acc 0.6500 | precision 0.5926 | recall 0.9600 | f1 0.7328                             
+    Epoch 2 | loss 1.1462 | acc 0.7200 | precision 0.6447 | recall 0.9800 | f1 0.7778                             
+    Epoch 3 | loss 0.9600 | acc 0.5100 | precision 1.0000 | recall 0.0200 | f1 0.0392                             
+    Epoch 4 | loss 0.5930 | acc 0.7300 | precision 0.8286 | recall 0.5800 | f1 0.6824                             
+    Epoch 5 | loss 0.4889 | acc 0.5500 | precision 1.0000 | recall 0.1000 | f1 0.1818                             
+    Epoch 6 | loss 0.4239 | acc 0.8000 | precision 0.8000 | recall 0.8000 | f1 0.8000                             
+Fold 5 best | acc 0.8000 | precision 0.8000 | recall 0.8000 | f1 0.8000
+
+========== Fold 6 / 10 ==========
+    Epoch 1 | loss 1.6070 | acc 0.5400 | precision 0.5208 | recall 1.0000 | f1 0.6849                             
+    Epoch 2 | loss 1.1181 | acc 0.5600 | precision 1.0000 | recall 0.1200 | f1 0.2143                             
+    Epoch 3 | loss 0.7362 | acc 0.5000 | precision 0.5000 | recall 1.0000 | f1 0.6667                             
+    Epoch 4 | loss 0.6186 | acc 0.6600 | precision 0.8636 | recall 0.3800 | f1 0.5278                             
+    Epoch 5 | loss 0.4190 | acc 0.5800 | precision 0.8333 | recall 0.2000 | f1 0.3226                             
+    Epoch 6 | loss 0.4312 | acc 0.7900 | precision 0.7101 | recall 0.9800 | f1 0.8235                             
+Fold 6 best | acc 0.7900 | precision 0.7101 | recall 0.9800 | f1 0.8235
+
+========== Fold 7 / 10 ==========
+    Epoch 1 | loss 1.8073 | acc 0.5600 | precision 0.5326 | recall 0.9800 | f1 0.6901                             
+    Epoch 2 | loss 1.2639 | acc 0.5000 | precision 0.0000 | recall 0.0000 | f1 0.0000                             
+    Epoch 3 | loss 1.0307 | acc 0.5500 | precision 1.0000 | recall 0.1000 | f1 0.1818                             
+    Epoch 4 | loss 0.7948 | acc 0.5200 | precision 1.0000 | recall 0.0400 | f1 0.0769                             
+    Epoch 5 | loss 0.4843 | acc 0.7600 | precision 0.7407 | recall 0.8000 | f1 0.7692                             
+    Epoch 6 | loss 0.4466 | acc 0.8000 | precision 0.8125 | recall 0.7800 | f1 0.7959                             
+Fold 7 best | acc 0.8000 | precision 0.8125 | recall 0.7800 | f1 0.7959
+
+========== Fold 8 / 10 ==========
+    Epoch 1 | loss 1.8423 | acc 0.5000 | precision 0.0000 | recall 0.0000 | f1 0.0000                             
+    Epoch 2 | loss 1.0358 | acc 0.5000 | precision 0.0000 | recall 0.0000 | f1 0.0000                             
+    Epoch 3 | loss 0.6816 | acc 0.5800 | precision 1.0000 | recall 0.1600 | f1 0.2759                             
+    Epoch 4 | loss 0.7517 | acc 0.5900 | precision 0.5506 | recall 0.9800 | f1 0.7050                             
+    Epoch 5 | loss 0.9530 | acc 0.5000 | precision 0.0000 | recall 0.0000 | f1 0.0000                             
+    Epoch 6 | loss 0.3884 | acc 0.5400 | precision 0.5213 | recall 0.9800 | f1 0.6806                             
+Fold 8 best | acc 0.5900 | precision 0.5506 | recall 0.9800 | f1 0.7050
+
+========== Fold 9 / 10 ==========
+    Epoch 1 | loss 1.8571 | acc 0.5200 | precision 0.5102 | recall 1.0000 | f1 0.6757                             
+    Epoch 2 | loss 0.9449 | acc 0.6200 | precision 1.0000 | recall 0.2400 | f1 0.3871                             
+    Epoch 3 | loss 0.7570 | acc 0.5700 | precision 0.5376 | recall 1.0000 | f1 0.6993                             
+    Epoch 4 | loss 0.7943 | acc 0.5000 | precision 0.5000 | recall 1.0000 | f1 0.6667                             
+    Epoch 5 | loss 0.4642 | acc 0.5400 | precision 0.5208 | recall 1.0000 | f1 0.6849                             
+    Epoch 6 | loss 0.3868 | acc 0.8000 | precision 0.7344 | recall 0.9400 | f1 0.8246                             
+Fold 9 best | acc 0.8000 | precision 0.7344 | recall 0.9400 | f1 0.8246
+
+========== Fold 10 / 10 ==========
+    Epoch 1 | loss 1.8763 | acc 0.6400 | precision 0.5833 | recall 0.9800 | f1 0.7313                             
+    Epoch 2 | loss 1.1756 | acc 0.6500 | precision 0.8571 | recall 0.3600 | f1 0.5070                             
+    Epoch 3 | loss 0.7559 | acc 0.8100 | precision 0.7385 | recall 0.9600 | f1 0.8348                             
+    Epoch 4 | loss 0.5819 | acc 0.5100 | precision 0.5051 | recall 1.0000 | f1 0.6711                             
+    Epoch 5 | loss 0.6303 | acc 0.8100 | precision 0.8039 | recall 0.8200 | f1 0.8119                             
+    Epoch 6 | loss 0.5149 | acc 0.7100 | precision 0.6364 | recall 0.9800 | f1 0.7717                             
+Fold 10 best | acc 0.8100 | precision 0.7385 | recall 0.9600 | f1 0.8348
+
+========== Final 10-Fold CV Result ==========
+Fold 1 | acc 0.8200 | precision 0.9211 | recall 0.7000 | f1 0.7955
+Fold 2 | acc 0.6900 | precision 0.6203 | recall 0.9800 | f1 0.7597
+Fold 3 | acc 0.7400 | precision 0.6935 | recall 0.8600 | f1 0.7679
+Fold 4 | acc 0.6900 | precision 1.0000 | recall 0.3800 | f1 0.5507
+Fold 5 | acc 0.8000 | precision 0.8000 | recall 0.8000 | f1 0.8000
+Fold 6 | acc 0.7900 | precision 0.7101 | recall 0.9800 | f1 0.8235
+Fold 7 | acc 0.8000 | precision 0.8125 | recall 0.7800 | f1 0.7959
+Fold 8 | acc 0.5900 | precision 0.5506 | recall 0.9800 | f1 0.7050
+Fold 9 | acc 0.8000 | precision 0.7344 | recall 0.9400 | f1 0.8246
+Fold 10 | acc 0.8100 | precision 0.7385 | recall 0.9600 | f1 0.8348
+
+Mean accuracy: 0.7530
+Std accuracy: 0.0710
+Mean precision: 0.7581
+Mean recall: 0.8360
+Mean f1-score: 0.7658
+(venv) RAYANs-Air:cs466 rayan$ 

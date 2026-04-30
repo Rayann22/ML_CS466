@@ -1,0 +1,121 @@
+Using device: cpu
+Loading pretrained word2vec from: ./embeddings/GoogleNews-vectors-negative300.bin.gz
+Loaded 3000000 vectors of dim 300
+
+========== Fold 1 / 10 ==========
+Pretrained hits: 14406 / 17041
+    Epoch 1 | loss 0.7180 | acc 0.5000 | precision 0.0000 | recall 0.0000 | f1 0.0000                                                          
+    Epoch 2 | loss 0.6212 | acc 0.5000 | precision 0.5000 | recall 1.0000 | f1 0.6667                                                          
+    Epoch 3 | loss 0.5015 | acc 0.8500 | precision 0.7778 | recall 0.9800 | f1 0.8673                                                          
+    Epoch 4 | loss 0.3750 | acc 0.6900 | precision 0.9130 | recall 0.4200 | f1 0.5753                                                          
+    Epoch 5 | loss 0.2793 | acc 0.9000 | precision 0.9000 | recall 0.9000 | f1 0.9000                                                          
+    Epoch 6 | loss 0.2240 | acc 0.8200 | precision 0.7353 | recall 1.0000 | f1 0.8475                                                          
+Fold 1 best | acc 0.9000 | precision 0.9000 | recall 0.9000 | f1 0.9000
+
+========== Fold 2 / 10 ==========
+Pretrained hits: 14591 / 17209
+    Epoch 1 | loss 0.7080 | acc 0.7400 | precision 0.7857 | recall 0.6600 | f1 0.7174                                                          
+    Epoch 2 | loss 0.5813 | acc 0.5600 | precision 0.5319 | recall 1.0000 | f1 0.6944                                                          
+    Epoch 3 | loss 0.4558 | acc 0.8000 | precision 0.8750 | recall 0.7000 | f1 0.7778                                                          
+    Epoch 4 | loss 0.3307 | acc 0.8000 | precision 0.8571 | recall 0.7200 | f1 0.7826                                                          
+    Epoch 5 | loss 0.2464 | acc 0.7700 | precision 0.6901 | recall 0.9800 | f1 0.8099                                                          
+    Epoch 6 | loss 0.1621 | acc 0.8100 | precision 0.8974 | recall 0.7000 | f1 0.7865                                                          
+Fold 2 best | acc 0.8100 | precision 0.8974 | recall 0.7000 | f1 0.7865
+
+========== Fold 3 / 10 ==========
+Pretrained hits: 14508 / 17085
+    Epoch 1 | loss 0.7007 | acc 0.5000 | precision 0.5000 | recall 1.0000 | f1 0.6667                                                          
+    Epoch 2 | loss 0.6211 | acc 0.6100 | precision 0.5618 | recall 1.0000 | f1 0.7194                                                          
+    Epoch 3 | loss 0.4681 | acc 0.7600 | precision 0.7031 | recall 0.9000 | f1 0.7895                                                          
+    Epoch 4 | loss 0.3616 | acc 0.8100 | precision 0.7460 | recall 0.9400 | f1 0.8319                                                          
+    Epoch 5 | loss 0.2947 | acc 0.6400 | precision 0.5814 | recall 1.0000 | f1 0.7353                                                          
+    Epoch 6 | loss 0.2262 | acc 0.6500 | precision 1.0000 | recall 0.3000 | f1 0.4615                                                          
+Fold 3 best | acc 0.8100 | precision 0.7460 | recall 0.9400 | f1 0.8319
+
+========== Fold 4 / 10 ==========
+Pretrained hits: 14492 / 17087
+    Epoch 1 | loss 0.7039 | acc 0.5000 | precision 0.0000 | recall 0.0000 | f1 0.0000                                                          
+    Epoch 2 | loss 0.6185 | acc 0.7300 | precision 0.7674 | recall 0.6600 | f1 0.7097                                                          
+    Epoch 3 | loss 0.4757 | acc 0.7400 | precision 0.6818 | recall 0.9000 | f1 0.7759                                                          
+    Epoch 4 | loss 0.3884 | acc 0.8200 | precision 0.7857 | recall 0.8800 | f1 0.8302                                                          
+    Epoch 5 | loss 0.2957 | acc 0.7600 | precision 0.9062 | recall 0.5800 | f1 0.7073                                                          
+    Epoch 6 | loss 0.1982 | acc 0.8300 | precision 0.8113 | recall 0.8600 | f1 0.8350                                                          
+Fold 4 best | acc 0.8300 | precision 0.8113 | recall 0.8600 | f1 0.8350
+
+========== Fold 5 / 10 ==========
+Pretrained hits: 14601 / 17236
+    Epoch 1 | loss 0.6964 | acc 0.5000 | precision 0.5000 | recall 1.0000 | f1 0.6667                                                          
+    Epoch 2 | loss 0.6065 | acc 0.7800 | precision 0.9375 | recall 0.6000 | f1 0.7317                                                          
+    Epoch 3 | loss 0.5131 | acc 0.8200 | precision 0.9211 | recall 0.7000 | f1 0.7955                                                          
+    Epoch 4 | loss 0.3754 | acc 0.7800 | precision 1.0000 | recall 0.5600 | f1 0.7179                                                          
+    Epoch 5 | loss 0.2970 | acc 0.8700 | precision 0.9111 | recall 0.8200 | f1 0.8632                                                          
+    Epoch 6 | loss 0.2063 | acc 0.8300 | precision 0.9459 | recall 0.7000 | f1 0.8046                                                          
+Fold 5 best | acc 0.8700 | precision 0.9111 | recall 0.8200 | f1 0.8632
+
+========== Fold 6 / 10 ==========
+Pretrained hits: 14668 / 17251
+    Epoch 1 | loss 0.7022 | acc 0.5000 | precision 0.0000 | recall 0.0000 | f1 0.0000                                                          
+    Epoch 2 | loss 0.5952 | acc 0.8100 | precision 0.8780 | recall 0.7200 | f1 0.7912                                                          
+    Epoch 3 | loss 0.4862 | acc 0.7200 | precision 0.6447 | recall 0.9800 | f1 0.7778                                                          
+    Epoch 4 | loss 0.3809 | acc 0.7400 | precision 0.9615 | recall 0.5000 | f1 0.6579                                                          
+    Epoch 5 | loss 0.2677 | acc 0.7100 | precision 0.9565 | recall 0.4400 | f1 0.6027                                                          
+    Epoch 6 | loss 0.2075 | acc 0.8600 | precision 0.8600 | recall 0.8600 | f1 0.8600                                                          
+Fold 6 best | acc 0.8600 | precision 0.8600 | recall 0.8600 | f1 0.8600
+
+========== Fold 7 / 10 ==========
+Pretrained hits: 14489 / 17070
+    Epoch 1 | loss 0.6833 | acc 0.5000 | precision 0.5000 | recall 1.0000 | f1 0.6667                                                          
+    Epoch 2 | loss 0.5927 | acc 0.6900 | precision 1.0000 | recall 0.3800 | f1 0.5507                                                          
+    Epoch 3 | loss 0.5059 | acc 0.8000 | precision 0.9688 | recall 0.6200 | f1 0.7561                                                          
+    Epoch 4 | loss 0.3518 | acc 0.7400 | precision 1.0000 | recall 0.4800 | f1 0.6486                                                          
+    Epoch 5 | loss 0.2512 | acc 0.8500 | precision 0.8571 | recall 0.8400 | f1 0.8485                                                          
+    Epoch 6 | loss 0.2128 | acc 0.9000 | precision 0.9167 | recall 0.8800 | f1 0.8980                                                          
+Fold 7 best | acc 0.9000 | precision 0.9167 | recall 0.8800 | f1 0.8980
+
+========== Fold 8 / 10 ==========
+Pretrained hits: 14391 / 17009
+    Epoch 1 | loss 0.7084 | acc 0.7500 | precision 0.7273 | recall 0.8000 | f1 0.7619                                                          
+    Epoch 2 | loss 0.6331 | acc 0.5000 | precision 0.0000 | recall 0.0000 | f1 0.0000                                                          
+    Epoch 3 | loss 0.4755 | acc 0.8000 | precision 0.9167 | recall 0.6600 | f1 0.7674                                                          
+    Epoch 4 | loss 0.3678 | acc 0.7200 | precision 0.6528 | recall 0.9400 | f1 0.7705                                                          
+    Epoch 5 | loss 0.3105 | acc 0.7900 | precision 0.9394 | recall 0.6200 | f1 0.7470                                                          
+    Epoch 6 | loss 0.1822 | acc 0.8300 | precision 0.8511 | recall 0.8000 | f1 0.8247                                                          
+Fold 8 best | acc 0.8300 | precision 0.8511 | recall 0.8000 | f1 0.8247
+
+========== Fold 9 / 10 ==========
+Pretrained hits: 14658 / 17272
+    Epoch 1 | loss 0.7084 | acc 0.5000 | precision 0.0000 | recall 0.0000 | f1 0.0000                                                          
+    Epoch 2 | loss 0.5927 | acc 0.5000 | precision 0.0000 | recall 0.0000 | f1 0.0000                                                          
+    Epoch 3 | loss 0.4761 | acc 0.7600 | precision 0.6806 | recall 0.9800 | f1 0.8033                                                          
+    Epoch 4 | loss 0.3794 | acc 0.7400 | precision 0.6579 | recall 1.0000 | f1 0.7937                                                          
+    Epoch 5 | loss 0.2941 | acc 0.7700 | precision 0.6849 | recall 1.0000 | f1 0.8130                                                          
+    Epoch 6 | loss 0.1958 | acc 0.8100 | precision 0.7313 | recall 0.9800 | f1 0.8376                                                          
+Fold 9 best | acc 0.8100 | precision 0.7313 | recall 0.9800 | f1 0.8376
+
+========== Fold 10 / 10 ==========
+Pretrained hits: 14471 / 17022
+    Epoch 1 | loss 0.7046 | acc 0.5000 | precision 0.5000 | recall 1.0000 | f1 0.6667                                                          
+    Epoch 2 | loss 0.6282 | acc 0.8100 | precision 0.8444 | recall 0.7600 | f1 0.8000                                                          
+    Epoch 3 | loss 0.5079 | acc 0.7300 | precision 0.6494 | recall 1.0000 | f1 0.7874                                                          
+    Epoch 4 | loss 0.3819 | acc 0.8300 | precision 0.7463 | recall 1.0000 | f1 0.8547                                                          
+    Epoch 5 | loss 0.2646 | acc 0.8200 | precision 0.9706 | recall 0.6600 | f1 0.7857                                                          
+    Epoch 6 | loss 0.2102 | acc 0.8600 | precision 0.9500 | recall 0.7600 | f1 0.8444                                                          
+Fold 10 best | acc 0.8600 | precision 0.9500 | recall 0.7600 | f1 0.8444
+
+========== Final 10-Fold CV Result ==========
+Fold 1 | acc 0.9000 | precision 0.9000 | recall 0.9000 | f1 0.9000
+Fold 2 | acc 0.8100 | precision 0.8974 | recall 0.7000 | f1 0.7865
+Fold 3 | acc 0.8100 | precision 0.7460 | recall 0.9400 | f1 0.8319
+Fold 4 | acc 0.8300 | precision 0.8113 | recall 0.8600 | f1 0.8350
+Fold 5 | acc 0.8700 | precision 0.9111 | recall 0.8200 | f1 0.8632
+Fold 6 | acc 0.8600 | precision 0.8600 | recall 0.8600 | f1 0.8600
+Fold 7 | acc 0.9000 | precision 0.9167 | recall 0.8800 | f1 0.8980
+Fold 8 | acc 0.8300 | precision 0.8511 | recall 0.8000 | f1 0.8247
+Fold 9 | acc 0.8100 | precision 0.7313 | recall 0.9800 | f1 0.8376
+Fold 10 | acc 0.8600 | precision 0.9500 | recall 0.7600 | f1 0.8444
+
+Mean accuracy: 0.8480
+Std accuracy: 0.0334
+Mean precision: 0.8575
+Mean recall: 0.8500
+Mean f1-score: 0.8481

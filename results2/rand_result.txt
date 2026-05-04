@@ -107,4 +107,3 @@ Std accuracy: 0.0335
 Mean precision: 0.6969
 Mean recall: 0.6259
 Mean f1-score: 0.6408
-(venv) RAYANs-MacBook-Air:cs466 rayan$ 

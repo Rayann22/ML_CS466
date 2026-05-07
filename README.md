@@ -122,7 +122,7 @@ https://code.google.com/archive/p/word2vec/
 or
 ```bash
 cd embeddings
-wget -P embeddings https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz
+wget https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz
 ```
 
 ###  Placement
@@ -148,19 +148,74 @@ embeddings/GoogleNews-vectors-negative300.bin.gz
 
 ## How to Run
 
-1. Make sure dependencies are installed:
+1. Install the required dependencies:
 
-```
+```bash
 pip install torch numpy scikit-learn gensim tqdm
 ```
 
-2. Run training:
+2. Select the CNN model type in:
 
+```text
+code/train.py
 ```
+
+Change the model type to one of the following options:
+
+```text
+rand
+static
+non-static
+```
+
+### Model Variants
+
+- `rand`  
+  CNN-rand model with randomly initialized embeddings.
+
+- `static`  
+  CNN-static model using pretrained Word2Vec embeddings that remain fixed during training.
+
+- `non-static`  
+  CNN-non-static model using pretrained Word2Vec embeddings that are fine-tuned during training.
+
+---
+
+3. Select the dataset in:
+
+```text
+code/train.py
+```
+
+Change the dataset path or dataset option to one of the following:
+
+```text
+datasets/imdb/
+datasets/twitter/
+datasets/imdb_grammar/
+```
+
+### Dataset Options
+
+- `imdb`  
+  Clean IMDb movie reviews dataset.
+
+- `twitter`  
+  Noisy Twitter sentiment dataset.
+
+- `imdb_grammar`  
+  Grammar-modified IMDb dataset.
+
+---
+
+4. Run the training script:
+
+```bash
 python code/train.py
 ```
 
 ---
+
 
 ## Reference
 

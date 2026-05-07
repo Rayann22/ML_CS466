@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 embeddings/
+code/prepare_data/
+

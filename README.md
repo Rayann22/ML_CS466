@@ -28,48 +28,92 @@ The goal is to reproduce Kim’s model and evaluate its performance on a modifie
 
 ---
 
-##  Project Structure
+## Project Structure
 
-```
+```text
 ML_CS466/
 │
 ├── code/
-│   ├── dataset.py        # Data loading and preprocessing
-│   ├── model.py          # Kim CNN model implementation
-│   ├── train.py          # Training and evaluation pipeline
+│   ├── dataset.py                    # Data loading and preprocessing
+│   ├── model.py                      # Kim CNN model implementation
+│   ├── train.py                      # Training and evaluation pipeline
 │
-├── data/
-│   ├── rt-polarity.pos   # Positive samples
-│   ├── rt-polarity.neg   # Negative samples
+├── datasets/
+│   │
+│   ├── IMDb_clean/
+│   │   ├── rt-polarity.pos           # Positive IMDb reviews
+│   │   └── rt-polarity.neg           # Negative IMDb reviews
+│   │
+│   ├── IMDb_grammar_modified/
+│   │   ├── imdb_grammar.pos          # Grammar-modified positive reviews
+│   │   └── imdb_grammar.neg          # Grammar-modified negative reviews
+│   │
+│   └── twitter_noisy/
+│       ├── twitter_clean.pos         # Positive Twitter samples
+│       └── twitter_clean.neg         # Negative Twitter samples
+│
+├── embeddings/
+│   └── GoogleNews-vectors-negative300.bin.gz
+│                                       # Pretrained Word2Vec embeddings
 │
 ├── results/
-│   ├── rand_results.txt
-│   ├── static_results.txt
-│   ├── non-static_results.txt
+│   │
+│   ├── IMDb_clean_results/              # Results for clean IMDb dataset
+│   ├── IMDb_grammar_modified_results/   # Results for grammar-modified IMDb                           
+│   └── twitter_results/                 # Results for Twitter dataset
 │
 └── README.md
 ```
 
 ---
 
-##  Dataset
+## Datasets
 
-The dataset is derived from the IMDb dataset but converted into the same format used in Kim (2014):
+This project uses multiple sentiment classification datasets for evaluating CNN-based sentence classification models under different text conditions.
 
-* Two separate files:
+### IMDb Dataset (Clean Text)
 
-  * `rt-polarity.pos` (positive reviews)
-  * `rt-polarity.neg` (negative reviews)
-* Each line represents one review
-* A balanced subset of **1000 samples** is used:
+The IMDb movie reviews dataset is used for clean sentiment classification experiments.
 
-  * 500 positive
-  * 500 negative
+Download the dataset from:
 
-This allows fair comparison with the original MR dataset structure.
+https://ai.stanford.edu/~amaas/data/sentiment/
+
+After downloading and extracting the dataset, place the files inside:
+
+```text
+datasets/imdb/
+```
 
 ---
 
+### Sentiment140 Twitter Dataset (Noisy Text)
+
+The Sentiment140 dataset is used for noisy Twitter sentiment classification experiments.
+
+Download the dataset from:
+
+https://www.kaggle.com/datasets/kazanova/sentiment140
+
+Place the dataset files inside:
+
+```text
+datasets/twitter/
+```
+
+---
+
+### Grammar-Modified IMDb Dataset
+
+The grammar-modified IMDb dataset is based on modified versions of IMDb reviews containing grammatical inconsistencies and altered sentence structures.
+
+Place the processed dataset files inside:
+
+```text
+datasets/imdb_grammar/
+```
+
+---
 ## Model Architecture
 
 The model follows Kim’s CNN design:
@@ -121,8 +165,8 @@ https://code.google.com/archive/p/word2vec/
 
 or
 ```bash
-cd embeddings
-wget -P embeddings https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz
+mkdir embeddings
+wget embeddings https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz
 ```
 
 ###  Placement

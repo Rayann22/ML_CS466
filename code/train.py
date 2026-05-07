@@ -1,3 +1,42 @@
+'''
+This file handles:
+- Loading datasets
+- Initializing the CNN model
+- Training and evaluation
+- Computing metrics such as Accuracy, Precision, Recall, and F1-score
+
+----------------------------------------------------------------------
+
+To change the dataset, modify the dataset paths below.
+
+Examples:
+
+IMDb dataset:
+    data_dir = "../datasets/IMDb_clean"
+
+Twitter dataset:
+    data_dir = "../datasets/twitter_noisy"
+
+Grammar-modified dataset:
+    data_dir = "../datasets/IMDb_grammar_modified"
+
+
+-----------------------------------------------------------------------
+
+Available model types:
+
+- rand        -> CNN-rand
+- static      -> CNN-static
+- non-static  -> CNN-non-static
+
+To change the model variant:
+
+    model_type = "static"
+
+
+'''
+
+
 import random
 import numpy as np
 import torch

@@ -78,8 +78,8 @@ class MRDataset(Dataset):
 
 
 def load_all_mr(data_dir: str):
-    pos_path = os.path.join(data_dir, "rt-polarity.pos")
-    neg_path = os.path.join(data_dir, "rt-polarity.neg")
+    pos_path = os.path.join(data_dir, "imdb_grammar.pos")
+    neg_path = os.path.join(data_dir, "imdb_grammar.neg")
     texts, labels = load_mr_data(pos_path, neg_path)
     max_len = max(len(t.split()) for t in texts)
     return texts, labels, max_len

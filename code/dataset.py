@@ -26,7 +26,10 @@ DATA FORMAT:
     Example:
         rt-polarity.pos
         rt-polarity.neg
-
+    
+    in the code example:
+    pos_path = os.path.join(data_dir, "rt-polarity.pos")
+    neg_path = os.path.join(data_dir, "rt-polarity.pos")
 ====================================================================
 
 PREPROCESSING:

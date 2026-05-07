@@ -1,3 +1,27 @@
+'''
+
+MODEL ARCHITECTURE:
+
+The model contains:
+- Embedding layer
+- Convolution layers with filter sizes:
+    3, 4, 5
+- Max-over-time pooling
+- Dropout layer
+- Fully connected classification layer
+===================================================================
+
+MODEL VARIANTS:
+
+Supported variants:
+- CNN-rand
+- CNN-static
+- CNN-non-static
+
+'''
+
+
+
 import torch
 import torch.nn as nn
 

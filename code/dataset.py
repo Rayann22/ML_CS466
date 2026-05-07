@@ -1,3 +1,47 @@
+'''
+
+Dataset Loading and Preprocessing:
+
+This file is responsible for:
+    - Reading dataset files
+    - Cleaning and preprocessing text
+    - Tokenization
+    - Vocabulary creation
+    - Padding sentences
+
+Supported datasets:
+    - IMDb reviews
+    - Twitter sentiment data
+    - Grammar-modified datasets
+
+====================================================================
+
+DATA FORMAT:
+    Positive samples:
+        *.pos
+
+    Negative samples:
+        *.neg
+
+    Example:
+        rt-polarity.pos
+        rt-polarity.neg
+
+====================================================================
+
+PREPROCESSING:
+    The preprocessing includes:
+        - Lowercasing text
+        - Basic cleaning
+        - Tokenization
+        - Sentence padding
+
+The preprocessing intentionally preserves some noisy patterns
+to evaluate model robustness on real-world text.
+
+'''
+
+
 import os
 import re
 from typing import List, Tuple
@@ -65,6 +109,10 @@ def encode_text(text: str, vocab: dict, max_len: int) -> List[int]:
     return ids
 
 
+
+
+
+
 class MRDataset(Dataset):
     def __init__(self, texts: List[str], labels: List[int], vocab: dict, max_len: int):
         self.labels = labels
@@ -78,7 +126,8 @@ class MRDataset(Dataset):
 
 
 def load_all_mr(data_dir: str):
-    pos_path = os.path.join(data_dir, "imdb_grammar.pos")
+     #change this based on the path dataset and the files names must change
+    pos_path = os.path.join(data_dir, "imdb_grammar.pos") 
     neg_path = os.path.join(data_dir, "imdb_grammar.neg")
     texts, labels = load_mr_data(pos_path, neg_path)
     max_len = max(len(t.split()) for t in texts)
